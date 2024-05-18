@@ -14,3 +14,6 @@ print("---------------")
 
 for i in range(5):
     print(i)
+    
+c=17/7
+print(c)
