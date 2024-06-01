@@ -14,7 +14,7 @@ answer=re.findall(r'[0-9]{2,4}년', exam)
 print(answer)
 
 d='I have a dog. I am not a girl. You are not alone. I am happy.'
-e=re.findall(r'[^.]+\.', d)a
+e=re.findall(r'[^.]+\.', d)
 print(e)
 
 f='Chandler: Allright Joey, be nice. So does he have a hump? A hump and a hairpiece? Phebe: Wait, does he eat chalk? Phebe: Just, because, I dont want her to go through what I went through with Carl- oh!'
@@ -22,6 +22,4 @@ g=re.findall(r'[A-Za-z]+\:', f)
 print(g)
 G=list(set(g))
 print(G)
-
-import usecsv
 

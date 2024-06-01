@@ -13,3 +13,12 @@ def opencsv(filename):
         output.append(i)
     f.close()
     return output
+
+def switch(listName):
+    for i in listName:
+        for j in i:
+            try:
+                i[i.index(j)]=float(j.replace(',',''))
+            except:
+                pass
+    return listName
